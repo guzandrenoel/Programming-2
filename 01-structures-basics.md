@@ -34,6 +34,7 @@ int main() {
     person1.age = 25;  // Access using the dot operator
     return 0;
 }
+
 ```
 
 ### Method 2: Immediate Initialization
@@ -42,6 +43,7 @@ struct Person {
     int age;
     double salary;
 } person1 = {25, 5440.50}, person2 = {22, 5000.50};
+
 ```
 
 ### Method 3: Designated Initializers (Recommended)
@@ -56,6 +58,7 @@ int main() {
     struct Person person2 = {.name = "Jane", .age = 21};  // Order doesn’t matter
     return 0;
 }
+
 ```
 
 ## Key Points:
