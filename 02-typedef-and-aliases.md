@@ -119,7 +119,7 @@ int main() {
 
 ## Key Points
 
-- typedef creates an alias for a type (it does not make a new type)
+- typedef creates an **alias** for a type (it does not make a new type)
 
 - Greatly improves readability and reduces repetition
 
