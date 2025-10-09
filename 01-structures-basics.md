@@ -110,13 +110,13 @@ int main() {
     return 0;
 }
 
-// Output:
-// Enter age: 21
-// Enter full name: Andre Noel
+/* Output:
+Enter age: 21
+Enter full name: Andre Noel
 
-// --- Employee Info ---
-// Name: Andre Noel
-// Age: 21
+--- Employee Info ---
+ Name: Andre Noel
+Age: 21
 ```
 
 ## Summary:

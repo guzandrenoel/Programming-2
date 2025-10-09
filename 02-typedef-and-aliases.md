@@ -11,7 +11,9 @@ It helps make code more **readable**, **organized**, and **easier to maintain**,
 
 ```c
 typedef existing_type new_name;
+```
 
+```c
 #include <stdio.h>
 typedef float Grade;
 typedef char String[50];
