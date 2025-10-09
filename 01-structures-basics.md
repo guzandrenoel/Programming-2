@@ -117,5 +117,5 @@ int main() {
 // Age: 21
 ```
 
-✅ In summary:
+## Summary:
 Structures help group multiple variables of different data types under one logical unit — making C programs cleaner, modular, and easier to maintain.
