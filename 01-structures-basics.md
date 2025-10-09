@@ -16,12 +16,14 @@ struct Person {
     double salary;
 };
 
-// struct — keyword to define a structure
-
-// Person — name (or tag) of the structure
-
-// Members: variables inside the structure (e.g., name, age, salary)
 ```
+
+- struct — keyword to define a structure
+
+- Person — name (or tag) of the structure
+
+- Members: variables inside the structure (e.g., name, age, salary)
+
 
 ## Declaration Methods
 
