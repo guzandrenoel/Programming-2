@@ -72,6 +72,8 @@ int main() {
 
 ### Typedef with a Structure Tag
 ```c
+#include <stdio.h>
+
 typedef struct Person {
     int age;
     char name[50];
@@ -91,6 +93,8 @@ int main() {
 
 ### Nested Structures with typedef
 ```c
+#include <stdio.h>
+
 typedef struct {
     int day, month, year;
 } Date;
