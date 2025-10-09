@@ -70,7 +70,7 @@ int main() {
 - Cleaner syntax: No need to write struct each time
 - Better readability: The name Student clearly describes what the type represents
 
-### Typedef with a Structure Tag
+## Typedef with a Structure Tag
 ```c
 #include <stdio.h>
 
@@ -91,7 +91,7 @@ int main() {
 - Still uses a tag (struct Person) internally
 - But lets you declare variables simply as Person p1;
 
-### Nested Structures with typedef
+## Nested Structures with typedef
 ```c
 #include <stdio.h>
 
