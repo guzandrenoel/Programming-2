@@ -117,6 +117,8 @@ Enter full name: Andre Noel
 --- Employee Info ---
  Name: Andre Noel
 Age: 21
+*/
+
 ```
 
 ## Summary:

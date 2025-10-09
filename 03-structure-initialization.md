@@ -29,6 +29,7 @@ int main() {
 /* Output: 
 Age: 25
 Salary: 45000.50
+*/
 
 ```
 
@@ -60,6 +61,7 @@ int main() {
 /* Output: 
 Age: 30
 Salary: 55000.75
+*/
 
 ```
 
@@ -88,6 +90,7 @@ int main() {
 /* Output: 
 p1: (10, 20)
 p2: (30, 40)
+*/
 
 ```
 
