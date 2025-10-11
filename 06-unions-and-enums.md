@@ -56,6 +56,7 @@ data.i (after writing f) = random/garbage value
 
 - Useful for memory-efficient programs where only one type of data is needed at a time (e.g., sensors, packets, or device data).
 
+
 ## 2. Enums
 
 An **enum** (short for enumeration) assigns names to integer constants for better readability.
@@ -86,6 +87,7 @@ Today is day number: 3
 - You can assign custom values: enum Level { LOW = 1, MEDIUM = 5, HIGH = 10 };
 
 - Enums make code self-explanatory and reduce the need for magic numbers.
+
 
 ## 3. Combining Struct, Union, and Enum
 
