@@ -11,22 +11,14 @@ C provides both **automatic (stack)** and **manual (heap)** memory management.
 
 A simplified view of how memory is organized during program execution:
 
-+-------------------------------+-----------------+
-|          Memory Area          |     Grows...    |
-+-------------------------------+-----------------+
-|             Stack             |    Downward     |
-|  - Local Variables, Returns   | (Lower Addresses)|
-+-------------------------------+-----------------+
-|              Heap             |     Upward      |
-|  - Dynamic Allocation (malloc)| (Higher Addresses)|
-+-------------------------------+-----------------+
-|        Global & Static        |    (Fixed)      |
-|  - Global/Static Variables    |                 |
-+-------------------------------+-----------------+
-|             Code              |    (Fixed)      |
-|  - Program Instructions       |                 |
-+-------------------------------+-----------------+
-
+| Memory Area           | Grows...         | Contains                          |
+|-----------------------|------------------|-----------------------------------|
+| Stack                 | Downward ▼       | Local Variables, Return Addresses |
+|                       | (Lower Addresses) |                                   |
+| Heap                  | Upward ▲         | Dynamic Allocation (malloc, etc.) |
+|                       | (Higher Addresses)|                                   |
+| Global & Static       | (Fixed)          | Global/Static Variables           |
+| Code                  | (Fixed)          | Program Instructions              |
 
 - **Stack** → fast, automatically managed, limited in size.  
 - **Heap** → flexible, manually managed using `malloc()`, `calloc()`, `realloc()`, and `free()`.
