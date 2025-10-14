@@ -25,6 +25,28 @@ A simplified view of how memory is organized during program execution:
 
 ---
 
+## 1.2 Why Memory Management Matters
+As a C programmer, you have direct control over memory - this is both powerful and dangerous! Understanding memory allocation helps you:
+
+- Create programs that use memory efficiently
+
+- Build data structures that can grow/shrink as needed
+
+- Avoid crashes and security vulnerabilities
+
+- Prevent memory leaks that slow down systems
+
+### Key Concepts for Beginners
+- Stack: Fast, automatic memory that cleans itself up
+
+- Heap: Flexible memory you control manually
+
+- Scope: Where variables are accessible in your code
+
+- Lifetime: How long variables exist in memory
+
+---
+
 ## 2. Stack Allocation (Automatic)
 
 ### Characteristics
@@ -331,6 +353,7 @@ Average age: 6.33
 | `calloc()`  | Yes (zeroes)       | No         | Yes           |
 | `realloc()` | N/A                | Yes        | Yes           |
 | `free()`    | N/A                | N/A        | N/A           |
+
 
 ## Key Takeaways
 
