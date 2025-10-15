@@ -1,6 +1,6 @@
 # Searching in Struct Arrays
 
-## 1. Overview
+## Overview
 
 Once you have a list or array of structures (like students or employees),  
 you often need to **find a specific record** — for example, searching by ID, name, or grade.
@@ -11,7 +11,7 @@ Two common methods are:
 
 ---
 
-## 2. Linear Search
+## 1. Linear Search
 
 Linear search goes through each record until it finds a match.
 
@@ -73,7 +73,7 @@ int main() {
 
 ---
 
-## 3. Linear Search by Name
+## 1.1 Linear Search by Name
 
 You can use the strcmp() function from <string.h> to compare strings.
 
@@ -130,7 +130,7 @@ int main() {
 
 ---
 
-## 4. Binary Search (on Sorted Arrays)
+## 2. Binary Search (on Sorted Arrays)
 
 Binary search repeatedly divides the array in half to find the target.
 It only works if the array is sorted by ID.
@@ -187,7 +187,7 @@ int main() {
 
 ---
 
-## 5. Comparison Summary
+## 3. Comparison Summary
 
 | Method        | Works on | Speed | Requires Sorted Data | Use Case       |
 | ------------- | -------- | ----- | -------------------- | -------------- |
@@ -196,7 +196,7 @@ int main() {
 
 ---
 
-## 6. Key Takeaways
+## 4. Key Takeaways
 
 - Linear search → simple and flexible.
 

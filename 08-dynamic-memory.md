@@ -1,13 +1,13 @@
 # Memory Allocation in C
 
-## 1. Overview
+## Overview
 
 **Memory allocation** is the process of reserving space in RAM for variables, arrays, and data structures.  
 C provides both **automatic (stack)** and **manual (heap)** memory management.
 
 ---
 
-## 1.1 Memory Layout (Stack vs Heap)
+## 1 Memory Layout (Stack vs Heap)
 
 A simplified view of how memory is organized during program execution:
 
@@ -25,7 +25,7 @@ A simplified view of how memory is organized during program execution:
 
 ---
 
-## 1.2 Why Memory Management Matters
+## 1.1 Why Memory Management Matters
 As a C programmer, you have direct control over memory - this is both powerful and dangerous! Understanding memory allocation helps you:
 
 - Create programs that use memory efficiently

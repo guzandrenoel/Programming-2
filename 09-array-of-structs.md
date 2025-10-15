@@ -1,6 +1,6 @@
 # Managing Arrays of Structures (Dynamic Allocation)
 
-## 1. Overview
+## Overview
 
 In many real-world programs, you often need to store **multiple records of structured data** — for example, multiple students, employees, or products.  
 
@@ -8,7 +8,7 @@ An **array of structures** lets you store many related structs under one variabl
 
 ---
 
-## 2. Static Array of Structures
+## 1. Static Array of Structures
 
 You can create a fixed-size array of structures directly, like this:
 
@@ -42,7 +42,7 @@ int main() {
 
 ```
 
-## 3. Dynamic Array of Structures
+## 2. Dynamic Array of Structures
 
 To make the number of records variable, we use heap memory with malloc().
 
@@ -126,7 +126,7 @@ Grade: 92.0
 
 ```
 
-## 4. Explanation
+## 3. Explanation
 
 | Concept                  | Description                                    |
 | ------------------------ | ---------------------------------------------- |
@@ -136,7 +136,7 @@ Grade: 92.0
 | `free(students)`         | Prevents memory leaks.                         |
 
 
-## 5. Practical Notes
+## 4. Practical Notes
 
 - Always check if malloc() returned NULL.
 
@@ -146,7 +146,7 @@ Grade: 92.0
 
 - Use scanf(" %[^\n]", str) to safely read names with spaces.
 
-## 6. Quick Summary
+## 5. Quick Summary
 
 | Task                       | Static Array | Dynamic Array |
 | -------------------------- | ------------ | ------------- |
