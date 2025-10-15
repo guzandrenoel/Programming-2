@@ -65,6 +65,7 @@ Each pass "bubbles" the largest value to the end.
 
 ### Example: Sort Students by Grade (Ascending)
 
+```c
 #include <stdio.h>
 #include <string.h>
 
@@ -74,7 +75,7 @@ struct Student {
     float grade;
 };
 
-```c
+
 void displayStudents(struct Student s[], int count) {
     printf("\nID\tName\tGrade\n");
     printf("-----------------------\n");
