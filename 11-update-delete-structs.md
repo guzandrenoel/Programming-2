@@ -52,6 +52,8 @@ void displayStudents(struct Student s[], int count) {
 
 ```
 
+---
+
 ## Updating a Record
 
 We’ll search for a student by ID and update their grade:
