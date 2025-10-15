@@ -24,7 +24,7 @@ struct Student {
 
 ---
 
-## Input function
+## Input and Display function
 
 ```c
 void inputStudents(struct Student s[], int count) {
