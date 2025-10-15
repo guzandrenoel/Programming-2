@@ -288,9 +288,58 @@ void displayStudents(struct Student s[], int count) {
     }
 }
 
-// bubbleSort(), selectionSort(), and insertionSort() would go here...
+// Bubble Sort - Sort by grade
+void bubbleSortByGrade(struct Student s[], int count) {
+    struct Student temp;
+    for (int i = 0; i < count - 1; i++) {
+        for (int j = 0; j < count - i - 1; j++) {
+            if (s[j].grade > s[j + 1].grade) {
+                temp = s[j];
+                s[j] = s[j + 1];
+                s[j + 1] = temp;
+            }
+        }
+    }
+}
+
+// Selection Sort - Sort by ID
+void selectionSortByID(struct Student s[], int count) {
+    int minIndex;
+    struct Student temp;
+    
+    for (int i = 0; i < count - 1; i++) {
+        minIndex = i;
+        for (int j = i + 1; j < count; j++) {
+            if (s[j].id < s[minIndex].id)
+                minIndex = j;
+        }
+        if (minIndex != i) {
+            temp = s[i];
+            s[i] = s[minIndex];
+            s[minIndex] = temp;
+        }
+    }
+}
+
+// Insertion Sort - Sort by name
+void insertionSortByName(struct Student s[], int count) {
+    struct Student key;
+    int j;
+    
+    for (int i = 1; i < count; i++) {
+        key = s[i];
+        j = i - 1;
+        
+        while (j >= 0 && strcmp(s[j].name, key.name) > 0) {
+            s[j + 1] = s[j];
+            j--;
+        }
+        s[j + 1] = key;
+    }
+}
 
 int main() {
+    // Create array of students
     struct Student students[4] = {
         {3, "Koby", 76.8},
         {1, "Andre", 89.5},
@@ -298,13 +347,26 @@ int main() {
         {2, "Toni", 92.3}
     };
     
-    printf("Original Array:");
+    printf("=== ORIGINAL ARRAY ===");
     displayStudents(students, 4);
     
-    // Try each sorting function:
-    // bubbleSort(students, 4);
-    // selectionSort(students, 4); 
-    // insertionSort(students, 4);
+    // Test Bubble Sort (by grade)
+    printf("\n=== BUBBLE SORT - BY GRADE ===");
+    struct Student students1[4] = {{3, "Koby", 76.8}, {1, "Andre", 89.5}, {4, "Noel", 91.0}, {2, "Toni", 92.3}};
+    bubbleSortByGrade(students1, 4);
+    displayStudents(students1, 4);
+    
+    // Test Selection Sort (by ID)
+    printf("\n=== SELECTION SORT - BY ID ===");
+    struct Student students2[4] = {{3, "Koby", 76.8}, {1, "Andre", 89.5}, {4, "Noel", 91.0}, {2, "Toni", 92.3}};
+    selectionSortByID(students2, 4);
+    displayStudents(students2, 4);
+    
+    // Test Insertion Sort (by name)
+    printf("\n=== INSERTION SORT - BY NAME ===");
+    struct Student students3[4] = {{3, "Koby", 76.8}, {1, "Andre", 89.5}, {4, "Noel", 91.0}, {2, "Toni", 92.3}};
+    insertionSortByName(students3, 4);
+    displayStudents(students3, 4);
     
     return 0;
 }
