@@ -148,7 +148,8 @@ int main() {
 
 head (0x1000) → [10 | 0x2000] → second (0x2000) → [20 | 0x3000] → third (0x3000) → [30 | NULL]
 
-Key Insight:
+### Key Insight:
+
 - The head pointer is special — it’s our entry point to the entire list.
 - If we lose head, we lose access to the whole list.
 
