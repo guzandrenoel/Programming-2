@@ -1,58 +1,69 @@
 # Programming 2 - C Language
 
-This repository contains my comprehensive notes, code examples, and learning materials for **Programming 2** using the C language.  
-It continues from Programming 1, focusing on **structures, pointers, dynamic memory**, and **data structures**.
+This repository contains my comprehensive notes, code examples, and learning materials for **Programming 2** using the **C language**.  
+It continues from Programming 1, focusing on **structures**, **pointers**, **dynamic memory**, and **data structures**.
 
 ---
 
-## 📚 Topics Covered
+## Topics Covered
 
-### Foundation Refreshers (00a–00b)
-- **Character (ctype) Functions** – Using `<ctype.h>` for character analysis and transformation (`isalpha()`, `isdigit()`, `toupper()`, etc.)
-- **2D Arrays** – Working with multi-dimensional arrays and nested loops
+### Foundation Refreshers
+- **00a-ctype-functions.md** — Character analysis and transformation using `<ctype.h>` (`isalpha()`, `isdigit()`, `toupper()`, etc.)
 
 ---
 
 ### Structures and Data Types (01–06)
-- **Structures Basics** – Definition, declaration, and usage of `struct`
-- **Typedef and Aliases** – Cleaner syntax using `typedef`
-- **Structure Initialization** – Setting initial values for struct members
-- **Structures in Functions and Pointers** – Passing structs by value and by reference
-- **Arrays and Nested Structures** – Combining arrays within structs and nesting structures
-- **Unions and Enums** – Memory sharing with `union` and defining named constants with `enum`
+
+| File | Topic |
+|------|--------|
+| **01-structures-basics.md** | Defining and declaring `struct` |
+| **02-typedef-and-aliases.md** | Simplifying struct names using `typedef` |
+| **03-structure-initialization.md** | Initializing structure members |
+| **04-structures-functions-pointers.md** | Passing structs by value and by reference |
+| **05-arrays-and-nested-structures.md** | Using arrays inside structs and nested structures |
+| **06-unions-and-enums.md** | Memory sharing with `union` and defining constants with `enum` |
 
 ---
 
 ### Pointers and Dynamic Memory (07–08)
-- **Struct Pointers** – Accessing members with pointers and the `->` operator
-- **Dynamic Structs** – Using `malloc()`, `calloc()`, and `free()` to allocate structs on the heap
+
+| File | Topic |
+|------|--------|
+| **07-struct-pointers.md** | Accessing struct members using pointers and the `->` operator |
+| **08-dynamic-memory.md** | Using `malloc()`, `calloc()`, and `free()` for struct and array allocation |
 
 ---
 
-### Arrays of Structures (09–12)
-- **Array of Structs** – Managing multiple records (e.g., list of students)
-- **Searching in Structs** – Finding records by name, ID, or other fields
-- **Update and Delete in Structs** – Modifying and removing records
-- **Sorting Structs** – Sorting based on fields such as name or grade
+### Arrays of Structures and Record Management (09–12)
+
+| File | Topic |
+|------|--------|
+| **09-array-of-structs.md** | Managing multiple records using arrays of structs |
+| **10-search-in-structs.md** | Searching records by ID, name, or field |
+| **11-update-delete-structs.md** | Updating and deleting struct records |
+| **12-sorting-algorithms.md** | Sorting records using Bubble, Selection, and Insertion Sort |
 
 ---
 
 ### Linked Lists (13–15)
-- **Linked List Basics** – Building self-referential structs for dynamic lists
-- **Insert and Delete Operations** – Adding or removing nodes efficiently
-- **Complete Linked List** – Menu-driven CRUD implementation as a capstone
+
+| File | Topic |
+|------|--------|
+| **13-linkedlist-basics.md** | Understanding nodes, pointers, and traversal |
+| **14-linkedlist-insert-delete.md** | Inserting and deleting nodes in a linked list |
+| **15-linkedlist-full.md** | Complete menu-driven linked list implementation (create, search, delete, and display) |
 
 ---
 
-## 🚀 How to Use This Repository
+## How to Use This Repository
 
 1. **Study Notes** – Follow the numbered `.md` files in order for progressive learning  
-2. **Review Code** – Check the examples inside each topic for reference  
-3. **Compile and Run** – Use a C compiler (e.g., GCC) to test sample programs  
+2. **Review Code** – Check the examples inside each topic for syntax and logic  
+3. **Compile and Run** – Use a C compiler (e.g., GCC) to test the examples  
 
 ---
 
-## 💻 Compilation Instructions
+## Compilation Instructions
 
 ```bash
 # Compile a C program
