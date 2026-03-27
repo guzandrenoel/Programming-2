@@ -16,11 +16,11 @@ typedef existing_type new_name;
 ```c
 #include <stdio.h>
 typedef float Grade;
-typedef char String[50];
+typedef char Name[50];
 
 int main() {
     Grade average = 92.5;
-    String student = "Andre Noel";
+    Name student = "Andre Noel";
 
     printf("%s's average grade: %.2f\n", student, average);
     return 0;
