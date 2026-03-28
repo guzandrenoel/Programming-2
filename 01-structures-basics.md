@@ -37,7 +37,7 @@ int main() {
 
 ```
 
-### Method 2: Immediate Initialization
+### Method 2: Direct Initialization
 ```c
 struct Person {
     int age;

@@ -36,7 +36,7 @@ Salary: 45000.50
 - Simple and clear for small structures
 - Members are filled in order
 
-## 2. Assignment After Declaration
+## 2. Separate Declaration
 
 You can declare first, then assign values later.
 
